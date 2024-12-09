@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="titulo">
+            <h1>PRÁCTICA 2 UD 2</h1>
+            <hr>
+        </div>
+      <div class="div1">
+        <div class="storage-options">
+            <button class="class_btn">Class Storage</button>
+            <button class="class_btn">JSON</button>
+            <button class="class_btn">CSV</button>
+            <button class="class_btn">XML</button>
+        </div>
+        <div class="div2">
+            <div class="actions">
+              <button id="get-files" class="action-btn">Get Files</button>
+              <button id="store" class="action-btn">Store</button>
+              <button id="show" class="action-btn">Show</button>
+              <button id="update" class="action-btn">Update</button>
+              <button id="delete" class="action-btn">Delete</button>
+              </div>
+            <div class="message-container">
+              <textarea id="output" readonly>
+                {
+                "mensaje": "Listado de ficheros",
+                "contenido": [
+                ".gitignore"
+                ]
+                }
+                </textarea>                
+            </div>
+        </div>
+      </div>
+      <div class="send-button">
+        <button class="send-btn">Send</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+
+</html>

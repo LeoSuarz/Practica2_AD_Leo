@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    width: 980px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    height: 600px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}   
+
+.titulo{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    align-items: center;
+}
+.h1{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+hr{
+    height: 1px;
+    background-color: black;
+    width: 980px;
+}
+.div1{
+    display: flex;
+    justify-content: center;
+}
+
+.actions{
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.class_btn{
+    margin: 10px;
+    width: 150px;
+    height: 25px;
+}
+
+.class_btn.active {
+    background-color: #007BFF;
+    color: white;
+    font-weight: bold;
+    border: 2px solid #0056b3;
+}
+  
+
+.action-btn{
+    margin: 15px;
+    width: 115px;
+    height: 50px;
+}
+.storage-options{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 20px;
+    justify-content: center;
+    border: 1px solid black ;
+    margin: 35px;
+    height: 250px;
+}
+
+.message-container{
+    display: flex;
+    height: 250px;
+    border: 1px solid black ;
+    width: 700px;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.send-button{
+    display: flex;
+    justify-content: flex-end;
+    width: 990px;
+    align-items: end;
+}
+
+.send-btn{
+    justify-content: end;
+    width: 100px;
+    height: 35px;
+    margin: 10px;
+}
+
